@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023A6BBD1BD0469400EA7EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A6BBC1BD0469400EA7EFA /* AppDelegate.swift */; };
+		023A6BBF1BD0469400EA7EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A6BBE1BD0469400EA7EFA /* ViewController.swift */; };
+		023A6BC21BD0469400EA7EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023A6BC01BD0469400EA7EFA /* Main.storyboard */; };
+		023A6BC41BD0469400EA7EFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023A6BC31BD0469400EA7EFA /* Images.xcassets */; };
+		023A6BC71BD0469400EA7EFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023A6BC51BD0469400EA7EFA /* LaunchScreen.xib */; };
+		023A6BD31BD0469400EA7EFA /* cs320_midterm_weatherAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A6BD21BD0469400EA7EFA /* cs320_midterm_weatherAlertTests.swift */; };
+		023A6BE11BD077A200EA7EFA /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A6BE01BD077A200EA7EFA /* DetailedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		023A6BCD1BD0469400EA7EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 023A6BAF1BD0469400EA7EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 023A6BB61BD0469400EA7EFA;
+			remoteInfo = "cs320-midterm-weatherAlert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023A6BBB1BD0469400EA7EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023A6BBC1BD0469400EA7EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		023A6BBE1BD0469400EA7EFA /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		023A6BC11BD0469400EA7EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		023A6BC31BD0469400EA7EFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		023A6BC61BD0469400EA7EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		023A6BCC1BD0469400EA7EFA /* cs320-midterm-weatherAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "cs320-midterm-weatherAlertTests.xctest"; path = "/Domain/bsu.edu/Users/crkovach/Desktop/cs320-midterm-weatherAlert/build/Debug-iphoneos/cs320-midterm-weatherAlertTests.xctest"; sourceTree = "<absolute>"; };
+		023A6BD11BD0469400EA7EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023A6BD21BD0469400EA7EFA /* cs320_midterm_weatherAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs320_midterm_weatherAlertTests.swift; sourceTree = "<group>"; };
+		023A6BE01BD077A200EA7EFA /* DetailedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		023A6BEB1BD092B200EA7EFA /* cs320-midterm-weatherAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs320-midterm-weatherAlert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		023A6BB41BD0469400EA7EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023A6BC91BD0469400EA7EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023A6BAE1BD0469400EA7EFA = {
+			isa = PBXGroup;
+			children = (
+				023A6BB91BD0469400EA7EFA /* cs320-midterm-weatherAlert */,
+				023A6BCF1BD0469400EA7EFA /* cs320-midterm-weatherAlertTests */,
+				023A6BEB1BD092B200EA7EFA /* cs320-midterm-weatherAlert.app */,
+			);
+			sourceTree = "<group>";
+		};
+		023A6BB91BD0469400EA7EFA /* cs320-midterm-weatherAlert */ = {
+			isa = PBXGroup;
+			children = (
+				023A6BBC1BD0469400EA7EFA /* AppDelegate.swift */,
+				023A6BBE1BD0469400EA7EFA /* ViewController.swift */,
+				023A6BC01BD0469400EA7EFA /* Main.storyboard */,
+				023A6BE01BD077A200EA7EFA /* DetailedView.swift */,
+				023A6BC31BD0469400EA7EFA /* Images.xcassets */,
+				023A6BC51BD0469400EA7EFA /* LaunchScreen.xib */,
+				023A6BBA1BD0469400EA7EFA /* Supporting Files */,
+			);
+			path = "cs320-midterm-weatherAlert";
+			sourceTree = "<group>";
+		};
+		023A6BBA1BD0469400EA7EFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				023A6BBB1BD0469400EA7EFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		023A6BCF1BD0469400EA7EFA /* cs320-midterm-weatherAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				023A6BD21BD0469400EA7EFA /* cs320_midterm_weatherAlertTests.swift */,
+				023A6BD01BD0469400EA7EFA /* Supporting Files */,
+			);
+			path = "cs320-midterm-weatherAlertTests";
+			sourceTree = "<group>";
+		};
+		023A6BD01BD0469400EA7EFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				023A6BD11BD0469400EA7EFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		023A6BB61BD0469400EA7EFA /* cs320-midterm-weatherAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023A6BD61BD0469400EA7EFA /* Build configuration list for PBXNativeTarget "cs320-midterm-weatherAlert" */;
+			buildPhases = (
+				023A6BB31BD0469400EA7EFA /* Sources */,
+				023A6BB41BD0469400EA7EFA /* Frameworks */,
+				023A6BB51BD0469400EA7EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cs320-midterm-weatherAlert";
+			productName = "cs320-midterm-weatherAlert";
+			productReference = 023A6BEB1BD092B200EA7EFA /* cs320-midterm-weatherAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		023A6BCB1BD0469400EA7EFA /* cs320-midterm-weatherAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023A6BD91BD0469400EA7EFA /* Build configuration list for PBXNativeTarget "cs320-midterm-weatherAlertTests" */;
+			buildPhases = (
+				023A6BC81BD0469400EA7EFA /* Sources */,
+				023A6BC91BD0469400EA7EFA /* Frameworks */,
+				023A6BCA1BD0469400EA7EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				023A6BCE1BD0469400EA7EFA /* PBXTargetDependency */,
+			);
+			name = "cs320-midterm-weatherAlertTests";
+			productName = "cs320-midterm-weatherAlertTests";
+			productReference = 023A6BCC1BD0469400EA7EFA /* cs320-midterm-weatherAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		023A6BAF1BD0469400EA7EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = crkovach;
+				TargetAttributes = {
+					023A6BB61BD0469400EA7EFA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					023A6BCB1BD0469400EA7EFA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 023A6BB61BD0469400EA7EFA;
+					};
+				};
+			};
+			buildConfigurationList = 023A6BB21BD0469400EA7EFA /* Build configuration list for PBXProject "cs320-midterm-weatherAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 023A6BAE1BD0469400EA7EFA;
+			productRefGroup = 023A6BAE1BD0469400EA7EFA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				023A6BB61BD0469400EA7EFA /* cs320-midterm-weatherAlert */,
+				023A6BCB1BD0469400EA7EFA /* cs320-midterm-weatherAlertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		023A6BB51BD0469400EA7EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023A6BC21BD0469400EA7EFA /* Main.storyboard in Resources */,
+				023A6BC71BD0469400EA7EFA /* LaunchScreen.xib in Resources */,
+				023A6BC41BD0469400EA7EFA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023A6BCA1BD0469400EA7EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023A6BB31BD0469400EA7EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023A6BBF1BD0469400EA7EFA /* ViewController.swift in Sources */,
+				023A6BE11BD077A200EA7EFA /* DetailedView.swift in Sources */,
+				023A6BBD1BD0469400EA7EFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023A6BC81BD0469400EA7EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023A6BD31BD0469400EA7EFA /* cs320_midterm_weatherAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		023A6BCE1BD0469400EA7EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 023A6BB61BD0469400EA7EFA /* cs320-midterm-weatherAlert */;
+			targetProxy = 023A6BCD1BD0469400EA7EFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		023A6BC01BD0469400EA7EFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023A6BC11BD0469400EA7EFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		023A6BC51BD0469400EA7EFA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023A6BC61BD0469400EA7EFA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		023A6BD41BD0469400EA7EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		023A6BD51BD0469400EA7EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		023A6BD71BD0469400EA7EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "cs320-midterm-weatherAlert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		023A6BD81BD0469400EA7EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "cs320-midterm-weatherAlert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		023A6BDA1BD0469400EA7EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cs320-midterm-weatherAlertTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cs320-midterm-weatherAlert.app/cs320-midterm-weatherAlert";
+			};
+			name = Debug;
+		};
+		023A6BDB1BD0469400EA7EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cs320-midterm-weatherAlertTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cs320-midterm-weatherAlert.app/cs320-midterm-weatherAlert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023A6BB21BD0469400EA7EFA /* Build configuration list for PBXProject "cs320-midterm-weatherAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023A6BD41BD0469400EA7EFA /* Debug */,
+				023A6BD51BD0469400EA7EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023A6BD61BD0469400EA7EFA /* Build configuration list for PBXNativeTarget "cs320-midterm-weatherAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023A6BD71BD0469400EA7EFA /* Debug */,
+				023A6BD81BD0469400EA7EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		023A6BD91BD0469400EA7EFA /* Build configuration list for PBXNativeTarget "cs320-midterm-weatherAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023A6BDA1BD0469400EA7EFA /* Debug */,
+				023A6BDB1BD0469400EA7EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 023A6BAF1BD0469400EA7EFA /* Project object */;
+}
